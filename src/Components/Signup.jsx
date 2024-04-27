@@ -13,7 +13,7 @@ const Signup = () => {
     event.preventDefault();
     try {
       let res = await fetch(
-        "https://backend-6-vs53.onrender.com/user/register",
+        "https://full-stack-note-app-backend.onrender.com/user/register",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

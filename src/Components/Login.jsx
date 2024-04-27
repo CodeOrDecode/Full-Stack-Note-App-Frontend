@@ -11,7 +11,7 @@ const Login = () => {
   async function handleSubmit(event) {
     event.preventDefault();
     try {
-      let res = await fetch("https://backend-6-vs53.onrender.com/user/login", {
+      let res = await fetch("https://full-stack-note-app-backend.onrender.com/user/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),
